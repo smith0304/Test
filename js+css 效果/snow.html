@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<style>
+
+body {
+
+background-color: #000000;
+
+}
+
+.snowflake {
+
+position: absolute;
+
+font-size: 10px;
+
+color: #FFFFFF;
+
+text-shadow: 1px 1px 1px #000000;
+
+user-select: none;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<script>
+
+function random(min, max) {
+
+return Math.floor(Math.random() * (max - min + 1)) + min;
+
+}
+
+function Snowflake() {
+
+this.characters = "❄️";
+
+this.x = random(0, window.innerWidth);
+
+this.y = random(-200, -100);
+
+this.speed = random(1, 5);
+
+this.element = document.createElement("span");
+
+this.element.classList.add("snowflake");
+
+this.element.innerHTML = this.characters;
+
+document.body.appendChild(this.element);
+
+}
+
+Snowflake.prototype.update = function() {
+
+this.y += this.speed;
+
+this.element.style.top = this.y + "px";
+
+this.element.style.left = this.x + "px";
+
+if (this.y > window.innerHeight) {
+
+this.y = random(-200, -100);
+
+this.x = random(0, window.innerWidth);
+
+}
+
+};
+
+var snowflakes = [];
+
+for (var i = 0; i < 100; i++) {
+
+snowflakes.push(new Snowflake());
+
+}
+
+setInterval(function() {
+
+snowflakes.forEach(function(snowflake) {
+
+snowflake.update();
+
+});
+
+}, 50);
+
+</script>
+
+</body>
+
+</html>
