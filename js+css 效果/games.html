@@ -1,113 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>简易小游戏</title>
-  <style>
-    body {
-      margin: 0;
-      overflow: hidden;
-    }
-    canvas {
-      display: block;
-    }
-    .score {
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      font-size: 20px;
-      color: #fff;
-      z-index: 10;
-    }
-  </style>
-</head>
-<body>
-  <div class="score">分数: 0</div>
-  <canvas id="gameCanvas"></canvas>
-
-  <script>
-    const canvas = document.getElementById("gameCanvas");
-    const ctx = canvas.getContext("2d");
-
-    // 设置全屏
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
-
-    let score = 0;
-    const scoreDisplay = document.querySelector('.score');
-
-    // 方块类
-    class Block {
-      constructor(x, y, size, speed, color) {
-        this.x = x;
-        this.y = y;
-        this.size = size;
-        this.speed = speed;
-        this.color = color;
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>简易小游戏</title>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
       }
-
-      draw() {
-        ctx.fillStyle = this.color;
-        ctx.fillRect(this.x, this.y, this.size, this.size);
+      canvas {
+        display: block;
       }
+      .score {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        font-size: 20px;
+        color: #fff;
+        z-index: 10;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="score">分数: 0</div>
+    <canvas id="gameCanvas"></canvas>
 
-      update() {
-        this.y += this.speed;
-        if (this.y > canvas.height) {
-          this.reset(); // 重置到顶部
+    <script>
+      const canvas = document.getElementById("gameCanvas");
+      const ctx = canvas.getContext("2d");
+
+      // 设置全屏
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+
+      let score = 0;
+      const scoreDisplay = document.querySelector(".score");
+
+      // 方块类
+      class Block {
+        constructor(x, y, size, speed, color) {
+          this.x = x;
+          this.y = y;
+          this.size = size;
+          this.speed = speed;
+          this.color = color;
+        }
+
+        draw() {
+          ctx.fillStyle = this.color;
+          ctx.fillRect(this.x, this.y, this.size, this.size);
+        }
+
+        update() {
+          this.y += this.speed;
+          if (this.y > canvas.height) {
+            this.reset(); // 重置到顶部
+          }
+        }
+
+        reset() {
+          this.y = -this.size;
+          this.x = Math.random() * (canvas.width - this.size);
+          this.speed = Math.random() * 3 + 2;
         }
       }
 
-      reset() {
-        this.y = -this.size;
-        this.x = Math.random() * (canvas.width - this.size);
-        this.speed = Math.random() * 3 + 2;
+      const blocks = [];
+      for (let i = 0; i < 5; i++) {
+        blocks.push(
+          new Block(
+            Math.random() * canvas.width,
+            Math.random() * canvas.height,
+            50,
+            Math.random() * 3 + 2,
+            "red"
+          )
+        );
       }
-    }
 
-    const blocks = [];
-    for (let i = 0; i < 5; i++) {
-      blocks.push(new Block(
-        Math.random() * canvas.width,
-        Math.random() * canvas.height,
-        50,
-        Math.random() * 3 + 2,
-        "red"
-      ));
-    }
+      // 检测点击事件
+      canvas.addEventListener("click", (e) => {
+        const clickX = e.clientX;
+        const clickY = e.clientY;
 
-    // 检测点击事件
-    canvas.addEventListener("click", (e) => {
-      const clickX = e.clientX;
-      const clickY = e.clientY;
-
-      blocks.forEach(block => {
-        if (
-          clickX > block.x &&
-          clickX < block.x + block.size &&
-          clickY > block.y &&
-          clickY < block.y + block.size
-        ) {
-          block.reset();
-          score++;
-          scoreDisplay.textContent = `分数: ${score}`;
-        }
-      });
-    });
-
-    // 游戏循环
-    function gameLoop() {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-      blocks.forEach(block => {
-        block.update();
-        block.draw();
+        blocks.forEach((block) => {
+          if (
+            clickX > block.x &&
+            clickX < block.x + block.size &&
+            clickY > block.y &&
+            clickY < block.y + block.size
+          ) {
+            block.reset();
+            score++;
+            scoreDisplay.textContent = `分数: ${score}`;
+          }
+        });
       });
 
-      requestAnimationFrame(gameLoop);
-    }
+      // 游戏循环
+      function gameLoop() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        blocks.forEach((block) => {
+          block.update();
+          block.draw();
+        });
 
-    gameLoop();
-  </script>
-</body>
+        requestAnimationFrame(gameLoop);
+      }
+
+      gameLoop();
+    </script>
+  </body>
 </html>

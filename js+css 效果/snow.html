@@ -1,103 +1,75 @@
 <!DOCTYPE html>
 
 <html>
+  <head>
+    <style>
+      body {
+        background-color: #000000;
+      }
 
-<head>
+      .snowflake {
+        position: absolute;
 
-<style>
+        font-size: 10px;
 
-body {
+        color: #ffffff;
 
-background-color: #000000;
+        text-shadow: 1px 1px 1px #000000;
 
-}
+        user-select: none;
+      }
+    </style>
+  </head>
 
-.snowflake {
+  <body>
+    <script>
+      function random(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+      }
 
-position: absolute;
+      function Snowflake() {
+        this.characters = "❄️";
 
-font-size: 10px;
+        this.x = random(0, window.innerWidth);
 
-color: #FFFFFF;
+        this.y = random(-200, -100);
 
-text-shadow: 1px 1px 1px #000000;
+        this.speed = random(1, 5);
 
-user-select: none;
+        this.element = document.createElement("span");
 
-}
+        this.element.classList.add("snowflake");
 
-</style>
+        this.element.innerHTML = this.characters;
 
-</head>
+        document.body.appendChild(this.element);
+      }
 
-<body>
+      Snowflake.prototype.update = function () {
+        this.y += this.speed;
 
-<script>
+        this.element.style.top = this.y + "px";
 
-function random(min, max) {
+        this.element.style.left = this.x + "px";
 
-return Math.floor(Math.random() * (max - min + 1)) + min;
+        if (this.y > window.innerHeight) {
+          this.y = random(-200, -100);
 
-}
+          this.x = random(0, window.innerWidth);
+        }
+      };
 
-function Snowflake() {
+      var snowflakes = [];
 
-this.characters = "❄️";
+      for (var i = 0; i < 100; i++) {
+        snowflakes.push(new Snowflake());
+      }
 
-this.x = random(0, window.innerWidth);
-
-this.y = random(-200, -100);
-
-this.speed = random(1, 5);
-
-this.element = document.createElement("span");
-
-this.element.classList.add("snowflake");
-
-this.element.innerHTML = this.characters;
-
-document.body.appendChild(this.element);
-
-}
-
-Snowflake.prototype.update = function() {
-
-this.y += this.speed;
-
-this.element.style.top = this.y + "px";
-
-this.element.style.left = this.x + "px";
-
-if (this.y > window.innerHeight) {
-
-this.y = random(-200, -100);
-
-this.x = random(0, window.innerWidth);
-
-}
-
-};
-
-var snowflakes = [];
-
-for (var i = 0; i < 100; i++) {
-
-snowflakes.push(new Snowflake());
-
-}
-
-setInterval(function() {
-
-snowflakes.forEach(function(snowflake) {
-
-snowflake.update();
-
-});
-
-}, 50);
-
-</script>
-
-</body>
-
+      setInterval(function () {
+        snowflakes.forEach(function (snowflake) {
+          snowflake.update();
+        });
+      }, 50);
+    </script>
+  </body>
 </html>
