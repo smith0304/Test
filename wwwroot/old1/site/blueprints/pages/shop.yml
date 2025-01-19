@@ -1,0 +1,21 @@
+title: Shop
+files: true
+pages: true
+
+
+columns:
+ - width: 2/2
+  sections:
+       mypagetable:
+        type: pagetable
+        headline: Products Index
+        templates: product
+        columns:
+          name:
+             label: Product
+             text: "{{ page.name }}"
+             type: text
+             width: 1/2
+
+  
+

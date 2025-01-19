@@ -1,0 +1,40 @@
+title: Contact
+
+fields:
+  berlin:
+    label: Berlin
+    type: textarea
+    width: 1/2
+  hangzhou:
+    label: Hangzhou
+    type: textarea
+    width: 1/2
+  email1:
+    label: Email
+    type: email
+    width: 1/2
+  email2:
+    label: Email
+    type: email
+    width: 1/2
+  phone1:
+    label: Phone
+    type: tel
+    width: 1/2
+  phone2:
+    label: Phone
+    type: tel
+    width: 1/2
+
+  social:
+    label: Social
+    type: structure
+    fields:
+      platform:
+        label: platform
+        type: text
+        width: 1/2
+      url:
+        label: url
+        type: url
+        width: 1/2

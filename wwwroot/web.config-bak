@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<system.webServer>
+		<rewrite>
+			<rules>
+				<rule name="Zkeys_RedirectTo_1" stopProcessing="true">
+					<match url=".*" ignoreCase="true"/>
+					<conditions>
+						<add input="{HTTP_HOST}" pattern="^hesignchina\.com$"/>
+					</conditions>
+					<action type="Redirect" url="https://hesign.com/{R:0}" redirectType="Permanent"/>
+				</rule>
+			</rules>
+		</rewrite>
+	</system.webServer>
+</configuration>

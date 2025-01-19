@@ -1,0 +1,42 @@
+title: Hesign
+files: true
+pages: true
+
+columns:
+ - width: 3/4
+  sections:
+     home:
+       type: pages
+       parent: site.find("home")
+       templates: media
+       layout: cards
+       cover: true
+       limit: 1000
+
+ - width: 1/4
+  sections:
+     index:
+       type: pages
+       templates:
+           - projects
+           - library
+
+     menu:
+       headline: Menu bar
+       type: pages
+       templates:
+           - about
+           - contact
+           - shop
+
+    
+    legal:
+       type: pages
+       templates:
+           - legal
+           - privacy
+           
+           
+           
+        
+           
