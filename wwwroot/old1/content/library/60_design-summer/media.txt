@@ -1,0 +1,12 @@
+Title: Design Summer
+
+----
+
+Myfield:
+
+type: page
+value: projects/design-summer
+
+----
+
+Tags: poster, branding, editorial, curation, other

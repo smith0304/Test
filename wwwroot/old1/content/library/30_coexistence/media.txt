@@ -1,0 +1,12 @@
+Title: Coexistence
+
+----
+
+Myfield:
+
+type: page
+value: projects/coexistence
+
+----
+
+Tags: poster

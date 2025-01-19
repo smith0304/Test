@@ -1,0 +1,12 @@
+Title: Daydream
+
+----
+
+Myfield:
+
+type: page
+value: projects/daydream
+
+----
+
+Tags: poster, editorial, curation, other

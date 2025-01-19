@@ -1,0 +1,12 @@
+Title: Design of Fusion
+
+----
+
+Myfield:
+
+type: page
+value: projects/design-of-fusion
+
+----
+
+Tags: poster

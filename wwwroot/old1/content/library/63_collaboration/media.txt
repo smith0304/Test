@@ -1,0 +1,12 @@
+Title: Collaboration
+
+----
+
+Myfield:
+
+type: page
+value: projects/collaboration
+
+----
+
+Tags: poster

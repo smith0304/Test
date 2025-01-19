@@ -1,0 +1,12 @@
+Title: Liang Quan
+
+----
+
+Myfield:
+
+type: page
+value: projects/title-less
+
+----
+
+Tags: poster, editorial

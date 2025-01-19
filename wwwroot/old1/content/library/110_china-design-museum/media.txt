@@ -1,0 +1,12 @@
+Title: China Design Museum
+
+----
+
+Myfield:
+
+type: page
+value: projects/china-design-museum
+
+----
+
+Tags: branding, typeface

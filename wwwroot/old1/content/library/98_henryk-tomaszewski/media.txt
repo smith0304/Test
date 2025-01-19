@@ -1,0 +1,12 @@
+Title: Henryk Tomaszewski
+
+----
+
+Myfield:
+
+type: page
+value: projects/henryk-tomaszewski
+
+----
+
+Tags: poster, editorial, curation

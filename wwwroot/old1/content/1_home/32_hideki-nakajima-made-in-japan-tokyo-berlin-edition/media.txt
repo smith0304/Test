@@ -1,0 +1,21 @@
+Title: Hideki Nakajima: Made in Japan, Tokyo (Berlin edition)
+
+----
+
+Project: Hideki Nakajima: Made in Japan. Tokyo (Berlin edition)
+
+----
+
+Additional: Center for Visual Arts Berlin
+
+----
+
+Tags: poster, curation
+
+----
+
+Myfield:
+
+type: page
+value: >
+  projects/hideki-nakajima-made-in-japan-tokyo-berlin-edition

@@ -1,0 +1,12 @@
+Title: Vision
+
+----
+
+Myfield:
+
+type: page
+value: projects/vision
+
+----
+
+Tags: editorial

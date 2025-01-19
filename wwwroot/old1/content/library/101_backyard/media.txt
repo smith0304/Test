@@ -1,0 +1,12 @@
+Title: Backyard
+
+----
+
+Myfield:
+
+type: page
+value: projects/backyard
+
+----
+
+Tags: poster

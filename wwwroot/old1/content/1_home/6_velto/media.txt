@@ -1,0 +1,20 @@
+Title: velto
+
+----
+
+Project: Alessandro Butti — Veltro
+
+----
+
+Additional: Tipoteca Italiana
+
+----
+
+Tags: poster
+
+----
+
+Myfield:
+
+type: page
+value: projects/alessandro-butti-veltro

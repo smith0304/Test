@@ -1,0 +1,12 @@
+Title: fellini
+
+----
+
+Myfield:
+
+type: page
+value: projects/fellini-1920-2020
+
+----
+
+Tags: poster

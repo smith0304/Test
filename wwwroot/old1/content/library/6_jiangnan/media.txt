@@ -1,0 +1,12 @@
+Title: Jiangnan
+
+----
+
+Myfield:
+
+type: page
+value: projects/jiangnan
+
+----
+
+Tags: editorial

@@ -1,0 +1,12 @@
+Title: tokyo TDC in Berlin
+
+----
+
+Myfield:
+
+type: page
+value: projects/tokyo-tdc-in-berlin
+
+----
+
+Tags: poster, curation

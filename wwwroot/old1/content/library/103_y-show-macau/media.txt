@@ -1,0 +1,12 @@
+Title: Y Show Macau
+
+----
+
+Myfield:
+
+type: page
+value: projects/y-show-macau
+
+----
+
+Tags: editorial, other

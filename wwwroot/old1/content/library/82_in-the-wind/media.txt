@@ -1,0 +1,12 @@
+Title: In the Wind
+
+----
+
+Myfield:
+
+type: page
+value: projects/in-the-wind
+
+----
+
+Tags: poster

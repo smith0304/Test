@@ -1,0 +1,12 @@
+Title: Viva Graphic
+
+----
+
+Myfield:
+
+type: page
+value: projects/viva-graphic
+
+----
+
+Tags: poster

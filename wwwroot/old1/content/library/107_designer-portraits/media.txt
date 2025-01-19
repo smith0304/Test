@@ -1,0 +1,12 @@
+Title: Designer Portraits
+
+----
+
+Myfield:
+
+type: page
+value: projects/designer-portraits
+
+----
+
+Tags: editorial

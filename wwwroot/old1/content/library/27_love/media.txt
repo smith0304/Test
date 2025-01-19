@@ -1,0 +1,12 @@
+Title: Love
+
+----
+
+Myfield:
+
+type: page
+value: projects/love
+
+----
+
+Tags: poster

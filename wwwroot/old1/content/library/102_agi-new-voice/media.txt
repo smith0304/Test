@@ -1,0 +1,13 @@
+Title: AGI-New Voice
+
+----
+
+Myfield:
+
+type: page
+value: >
+  projects/alliance-graphique-internationale-agi-new-voice
+
+----
+
+Tags: editorial

@@ -1,0 +1,20 @@
+Title: Yang Fudong
+
+----
+
+Project: Yang Fudong
+
+----
+
+Additional: Fosun Foundation Shanghai
+
+----
+
+Tags: poster
+
+----
+
+Myfield:
+
+type: page
+value: projects/yang-fudong

@@ -1,0 +1,20 @@
+Title: I do
+
+----
+
+Project: I do
+
+----
+
+Additional: I do co. ltd. Beijing
+
+----
+
+Tags: other, typeface, branding
+
+----
+
+Myfield:
+
+type: page
+value: projects/i-do

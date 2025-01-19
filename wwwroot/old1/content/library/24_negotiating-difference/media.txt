@@ -1,0 +1,12 @@
+Title: Negotiating Difference
+
+----
+
+Myfield:
+
+type: page
+value: projects/negotiating-difference
+
+----
+
+Tags: poster

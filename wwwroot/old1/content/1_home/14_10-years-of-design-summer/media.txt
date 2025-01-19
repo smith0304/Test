@@ -1,0 +1,20 @@
+Title: 10 Years of Design Summer
+
+----
+
+Project: 10 Years of Design Summer
+
+----
+
+Additional: Phoenix Creative Park
+
+----
+
+Tags: poster, editorial, curation, branding, other
+
+----
+
+Myfield:
+
+type: page
+value: projects/10-years-of-design-summer

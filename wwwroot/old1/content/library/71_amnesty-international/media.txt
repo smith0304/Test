@@ -1,0 +1,12 @@
+Title: Amnesty International
+
+----
+
+Myfield:
+
+type: page
+value: projects/amnesty-international
+
+----
+
+Tags: poster

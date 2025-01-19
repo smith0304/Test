@@ -1,0 +1,20 @@
+Title: Summer South Winter North
+
+----
+
+Project: Summer South Winter North
+
+----
+
+Additional: Times Art Center Berlin
+
+----
+
+Tags: poster, branding
+
+----
+
+Myfield:
+
+type: page
+value: projects/summer-south-winter-north

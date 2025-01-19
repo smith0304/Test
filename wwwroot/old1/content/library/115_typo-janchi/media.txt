@@ -1,0 +1,12 @@
+Title: Typo Janchi
+
+----
+
+Myfield:
+
+type: page
+value: projects/typo-janchi
+
+----
+
+Tags: poster

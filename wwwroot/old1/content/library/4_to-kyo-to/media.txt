@@ -1,0 +1,12 @@
+Title: To Kyo To
+
+----
+
+Myfield:
+
+type: page
+value: projects/to-kyo-to
+
+----
+
+Tags: poster, editorial

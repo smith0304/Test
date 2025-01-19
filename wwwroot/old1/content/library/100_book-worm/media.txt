@@ -1,0 +1,12 @@
+Title: Book Worm
+
+----
+
+Myfield:
+
+type: page
+value: projects/book-worm
+
+----
+
+Tags: poster, curation, editorial

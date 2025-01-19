@@ -1,0 +1,12 @@
+Title: Afternoon Tea
+
+----
+
+Myfield:
+
+type: page
+value: projects/afternoon-tea
+
+----
+
+Tags: poster

@@ -1,0 +1,13 @@
+Title: Henry Steiner
+
+----
+
+Myfield:
+
+type: page
+value: >
+  projects/henry-steiner-graphic-communicator
+
+----
+
+Tags: poster, curation, editorial

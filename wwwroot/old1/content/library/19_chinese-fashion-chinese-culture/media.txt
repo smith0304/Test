@@ -1,0 +1,12 @@
+Title: Chinese fashion, Chinese culture
+
+----
+
+Myfield:
+
+type: page
+value: projects/chinese-fashion-chinese-culture
+
+----
+
+Tags: poster

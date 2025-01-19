@@ -1,0 +1,12 @@
+Title: Title-less
+
+----
+
+Myfield:
+
+type: page
+value: projects/title-less
+
+----
+
+Tags: poster, editorial

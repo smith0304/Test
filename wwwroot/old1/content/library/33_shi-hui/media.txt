@@ -1,0 +1,12 @@
+Title: Shi Hui
+
+----
+
+Myfield:
+
+type: page
+value: projects/shi-hui
+
+----
+
+Tags: editorial

@@ -1,0 +1,12 @@
+Title: Small Studios
+
+----
+
+Myfield:
+
+type: page
+value: projects/small-studios
+
+----
+
+Tags: editorial

@@ -1,0 +1,13 @@
+Title: Chimera-Zhou Xiaohu Solo Exhibition
+
+----
+
+Myfield:
+
+type: page
+value: >
+  projects/chimera-zhou-xiaohu-solo-exhibition
+
+----
+
+Tags: poster, editorial

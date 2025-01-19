@@ -1,0 +1,20 @@
+Title: Minsheng Art Museum
+
+----
+
+Project: Minsheng Art Museum
+
+----
+
+Additional: 
+
+----
+
+Tags: branding
+
+----
+
+Myfield:
+
+type: page
+value: projects/minsheng-art-museum

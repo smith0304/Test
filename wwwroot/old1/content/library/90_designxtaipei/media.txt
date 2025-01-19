@@ -1,0 +1,12 @@
+Title: DesignXTaipei
+
+----
+
+Myfield:
+
+type: page
+value: projects/design-taipei
+
+----
+
+Tags: poster

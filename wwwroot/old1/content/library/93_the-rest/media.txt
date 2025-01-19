@@ -1,0 +1,12 @@
+Title: The Rest
+
+----
+
+Myfield:
+
+type: page
+value: projects/the-rest
+
+----
+
+Tags: poster

@@ -1,0 +1,12 @@
+Title: ChuYan
+
+----
+
+Myfield:
+
+type: page
+value: projects/chuyan
+
+----
+
+Tags: branding

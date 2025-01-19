@@ -1,0 +1,12 @@
+Title: 21K
+
+----
+
+Myfield:
+
+type: page
+value: projects/21k
+
+----
+
+Tags: other

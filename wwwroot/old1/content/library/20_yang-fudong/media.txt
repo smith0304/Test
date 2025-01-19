@@ -1,0 +1,12 @@
+Title: Yang Fudong
+
+----
+
+Myfield:
+
+type: page
+value: projects/yang-fudong
+
+----
+
+Tags: poster

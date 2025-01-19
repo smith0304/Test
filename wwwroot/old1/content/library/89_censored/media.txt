@@ -1,0 +1,12 @@
+Title: Censored
+
+----
+
+Myfield:
+
+type: page
+value: projects/censored
+
+----
+
+Tags: poster, other

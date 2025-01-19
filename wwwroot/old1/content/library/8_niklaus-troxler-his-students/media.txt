@@ -1,0 +1,12 @@
+Title: Niklaus Troxler & his Students
+
+----
+
+Myfield:
+
+type: page
+value: projects/niklaus-troxler-his-students
+
+----
+
+Tags: poster, curation, typeface

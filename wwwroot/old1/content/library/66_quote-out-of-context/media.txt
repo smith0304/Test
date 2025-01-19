@@ -1,0 +1,12 @@
+Title: Quote Out of Context
+
+----
+
+Myfield:
+
+type: page
+value: projects/quote-out-of-context
+
+----
+
+Tags: poster, editorial

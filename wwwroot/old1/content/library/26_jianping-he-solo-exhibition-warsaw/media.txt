@@ -1,0 +1,13 @@
+Title: Jianping He – Solo Exhibition Warsaw
+
+----
+
+Myfield:
+
+type: page
+value: >
+  projects/jianping-he-solo-exhibition-warsaw
+
+----
+
+Tags: poster, curation

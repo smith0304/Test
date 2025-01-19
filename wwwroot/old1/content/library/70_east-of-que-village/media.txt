@@ -1,0 +1,12 @@
+Title: East of Que Village
+
+----
+
+Myfield:
+
+type: page
+value: projects/east-of-que-village
+
+----
+
+Tags: poster

@@ -1,0 +1,12 @@
+Title: The first Intellectual
+
+----
+
+Myfield:
+
+type: page
+value: projects/the-first-intellectua
+
+----
+
+Tags: poster

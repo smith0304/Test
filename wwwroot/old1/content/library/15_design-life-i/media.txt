@@ -1,0 +1,12 @@
+Title: Design+life I
+
+----
+
+Myfield:
+
+type: page
+value: projects/design-life-i
+
+----
+
+Tags: poster, editorial, typeface

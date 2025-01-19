@@ -1,0 +1,16 @@
+Title: Li Bingyuan
+
+----
+
+Myfield:
+
+type: page
+value: projects/li-bingyuan
+
+----
+
+Tags: Poster
+
+----
+
+Project: Li Bingyuan

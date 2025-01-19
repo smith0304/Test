@@ -1,0 +1,12 @@
+Title: Olympia 2008
+
+----
+
+Myfield:
+
+type: page
+value: projects/olympia-2008
+
+----
+
+Tags: poster

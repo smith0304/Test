@@ -1,0 +1,12 @@
+Title: Beyond GOD & Evil_Preface
+
+----
+
+Myfield:
+
+type: page
+value: projects/beyond-god-evil-preface
+
+----
+
+Tags: poster

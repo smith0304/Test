@@ -1,0 +1,20 @@
+Title: Censored
+
+----
+
+Project: Censored
+
+----
+
+Additional: Ai Weiwei Studio
+
+----
+
+Tags: poster, other
+
+----
+
+Myfield:
+
+type: page
+value: projects/censored
