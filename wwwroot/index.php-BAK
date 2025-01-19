@@ -1,0 +1,1 @@
+﻿<?php $site=$_SERVER['SERVER_NAME']; if($site=='hesignchina.com'||$site=='www.hesignchina.com'){ Header("Location:https://hesign.com"); }?>
